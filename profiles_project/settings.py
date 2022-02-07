@@ -80,12 +80,14 @@ WSGI_APPLICATION = 'profiles_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': 'autodbtest301_high',
-        'USER':  'admin',
-        'PASSWORD': 'Chh%%67896789psh',
+        'NAME': os.environ.get('db_name'),
+        'USER': os.environ.get('db_user'),
+        'PASSWORD': os.environ.get('db_password)',
     }
 }
 
+
+DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
