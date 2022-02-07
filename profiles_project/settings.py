@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'profiles_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
-        'NAME': os.getenv('db_name'),
+        'NAME': 'autodbtest301_high',
         'USER':  os.getenv('db_user'),
         'PASSWORD': os.getenv('db_password'),
     }
