@@ -86,7 +86,7 @@ DATABASES = {
     }
 }
 
-print (DATABASE['default']['NAME'])
+print (DATABASES['default']['NAME'])
 
 DEBUG = bool(int(os.environ.get('DEBUG', 1)))
 
