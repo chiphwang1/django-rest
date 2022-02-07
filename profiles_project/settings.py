@@ -81,8 +81,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': 'autodbtest301_high',
-        'USER':  os.getenv('db_user'),
-        'PASSWORD': os.getenv('db_password'),
+        'USER':  'admin',
+        'PASSWORD': 'Chh%%67896789psh',
     }
 }
 
