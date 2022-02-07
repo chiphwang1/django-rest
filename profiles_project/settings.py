@@ -82,7 +82,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.oracle',
         'NAME': os.environ.get('db_name'),
         'USER': os.environ.get('db_user'),
-        'PASSWORD': os.environ.get('db_password)',
+        'PASSWORD': os.environ.get('db_password'),
     }
 }
 
