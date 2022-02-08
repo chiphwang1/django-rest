@@ -4,9 +4,6 @@
 cp /wallet/* /usr/lib/oracle/21/client64/lib/network/admin/
 
 
-export DBNAME="autodbtest301_high"
-export DBPASSWORD="Chh%%67896789psh"
-export DBUSER="admin"
 
 # Run migrations and collectstatic
 cd /django-rest
